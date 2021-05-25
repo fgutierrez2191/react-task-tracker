@@ -2,11 +2,12 @@ import React from 'react';
 
 
 function App() {
-
+  const name = 'Felix'
 
   return (
-    <div>
-      <h1>shit works</h1>
+    <div className='container'>
+      <h1>Hello From React</h1>
+      <h2>Hello</h2>
     </div>
   );
 }
